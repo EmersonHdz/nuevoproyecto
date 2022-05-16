@@ -1,0 +1,22 @@
+{
+    "name": "emersonhernandez/app",
+    "description": "aplicacion con Sass, Js, php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emerson Israel Sanchez Hernandez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
